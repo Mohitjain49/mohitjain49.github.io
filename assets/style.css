@@ -42,7 +42,7 @@ body {
     width: 410px;
     border: 3px solid var(--silver-color);
     border-radius: 20px;
-    background-color: white;
+    background-color: var(--blue-one);
     overflow: hidden;
 }
 .mohit-redirect-top {
@@ -71,16 +71,80 @@ body {
     color: var(--silver-color);
 }
 
+.mohit-redirect-body {
+    width: 100%;
+    height: calc(100% - 35px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mohit-redirect-title {
+    font-size: 45px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    color: var(--blue-five);
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+.mohit-redirect-desc {
+    width: calc(100% - 20px);
+    height: fit-content;
+    text-align: left;
+    margin: 0;
+    padding: 0px 10px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    font-family: 'Lexend', 'Roboto', sans-serif;
+    color: var(--blue-five);
+}
+.mohit-redirect-mainLink {
+    margin: 5px 0px;
+    padding: 7px 0px;
+    text-decoration: none;
+    color: var(--gold-one);
+    font-size: 20px;
+    font-family: 'Roboto', 'Lexend', sans-serif;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+    transition: var(--default-transition);
+}
+
+.mohit-redirect-mainLink:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.mohit-redirect-mainLink img {
+    height: 20px;
+    user-select: none;
+    margin: 0px 10px;
+    position: relative;
+    top: 3px;
+}
+
+.mohit-redirect-credits {
+    color: var(--blue-five);
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
 @media (max-width: 450px) {
     .mohit-redirect {
         top: 0;
         left: 0;
         width: 100%;
-        height: fit-content;
-        min-height: 100%;
+        height: 100%;
         min-width: 340px;
         border: none;
         border-radius: 0px;
-        background-color: rgba(255, 255, 255, 0.85);
+    }
+    .mohit-redirect-desc {
+        width: calc(100% - 30px);
+        padding: 0px 15px;
+        padding-bottom: 30px;
     }
 }
