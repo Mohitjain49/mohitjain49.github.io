@@ -1,0 +1,86 @@
+:root {
+    --blue-one: rgb(159, 191, 255);
+    --blue-two: rgb(117, 163, 255);
+    --blue-three: rgb(67, 130, 255);
+    --blue-four: rgb(82, 139, 252);
+    --blue-five: rgb(82, 3, 239);
+
+    --silver-color: #a5a4a4;
+    --silver-light: #e4e2e2;
+
+    --gold-one: rgb(126, 90, 0);
+    --gold-two: rgb(198, 147, 19);
+    --orange-one: rgb(255, 115, 0);
+    --orange-two: rgb(248, 206, 171);
+
+    --empty-border: 2px solid rgba(0, 0, 0, 0);
+    --thin-empty-border: 1px solid rgba(0, 0, 0, 0);
+    --default-transition: border 0.2s, color 0.2s, background-color 0.2s;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    min-width: 340px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: var(--orange-two);
+    overflow: auto;
+}
+.center-flex-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mohit-redirect {
+    position: absolute;
+    top: calc(50% - 375px);
+    left: calc(50% - 205px);
+    height: 750px;
+    width: 410px;
+    border: 3px solid var(--silver-color);
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+.mohit-redirect-top {
+    height: 33px;
+    width: 100%;
+    background-color: var(--silver-light);
+    border-bottom: 2px solid var(--silver-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mohit-redirect-top img {
+    user-select: none;
+    margin-left: 10px;
+    height: 20px;
+}
+.mohit-redirect-top p {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    color: var(--silver-color);
+}
+
+@media (max-width: 450px) {
+    .mohit-redirect {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        min-height: 100%;
+        min-width: 340px;
+        border: none;
+        border-radius: 0px;
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+}
