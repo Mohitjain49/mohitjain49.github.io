@@ -1,6 +1,3 @@
-# Redirect Repository
-This repository is a redirect repo for my main website.  
+# My Ecosystem Website
 
-## My Websites
-Main Website: https://mohit-jain.com/  
-My Globe: https://globe.mohit-jain.com/
+Similar to the Main Leica Website and the Main iVue Website, This website simply leads to some of my other projects and websites, including my portfolio.
