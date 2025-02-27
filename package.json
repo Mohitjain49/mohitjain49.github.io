@@ -1,5 +1,5 @@
 {
-  "name": "mohit-web-ecosystem",
+  "name": "mohit-web-projects",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -12,6 +12,8 @@
     "open:build": "vite-ssg build & vite preview --open"
   },
   "dependencies": {
+    "@tsparticles/slim": "^3.8.1",
+    "@tsparticles/vue3": "^3.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
