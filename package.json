@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "open": "vite --open",
     "open:preview": "vite preview --open",
-    "open:build": "vite-ssg build & vite preview --open"
+    "open:build": "vite build & vite preview --open"
   },
   "dependencies": {
     "@tsparticles/slim": "^3.8.1",
