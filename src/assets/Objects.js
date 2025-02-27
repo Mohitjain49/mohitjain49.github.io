@@ -13,11 +13,11 @@ export const HOME_BACKGROUND = {
         },
         number: {
             density: { enable: true, area: 1200 },
-            value: 4000
+            value: 2000
         },
         opacity: {
             value: { min: 0.1, max: 0.75 },
-            animation: { enable: true, speed: 1.5, sync: false },
+            animation: { enable: true, speed: 1, sync: false },
         },
         shape: {
             type: "triangle"
