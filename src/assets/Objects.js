@@ -1,6 +1,8 @@
+export const PORTFOLIO_LINK = "https://mohit-jain.com/";
+
 export const HOME_BACKGROUND = {
     background: { color: "#232323" },
-    fpsLimit: 100,
+    fpsLimit: 40,
     particles: {
         color: { value: ["rgb(126, 90, 0)", "#0047ABE6", "#FFFFFFE6", "rgb(67, 130, 255)", "globe-green: #4fc20ca8"] },
         move: {
@@ -13,7 +15,7 @@ export const HOME_BACKGROUND = {
         },
         number: {
             density: { enable: true, area: 1200 },
-            value: 2000
+            value: 1000
         },
         opacity: {
             value: { min: 0.1, max: 0.75 },

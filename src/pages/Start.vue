@@ -10,9 +10,6 @@ import PortfolioCard from '../cards/PortfolioCard.vue';
         <div class="projects-card-container">
             <PortfolioCard />
         </div>
-        <div class="projects-card-container">
-            <PortfolioCard />
-        </div>
     </div>
 </div>
 </template>
