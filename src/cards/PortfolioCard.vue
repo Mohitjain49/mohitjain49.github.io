@@ -1,11 +1,13 @@
 <script setup>
 import { PORTFOLIO_LINK } from '../assets/Objects.js';
+
+const CARD_CLASSES = ["project-card", "animate__animated", "animate__pulse", "animate__infinite"]
 const PAGE_DESC = "My personal website extensively displays my skills as a software developer " +
     "and the experience I have gathered through working with multiple companies.";
 </script>
 
 <template>
-<a :href="PORTFOLIO_LINK" class="project-card">
+<a :href="PORTFOLIO_LINK" :class="CARD_CLASSES">
     <div class="project-card-header">My Portfolio</div>
     <div class="project-card-desc"> {{ PAGE_DESC }} </div>
     <div class="project-card-svg-container">
