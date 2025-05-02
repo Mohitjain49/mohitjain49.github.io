@@ -1,6 +1,5 @@
 # Redirect Repository
-This repository is a redirect repo for my main website.  
+This repo simply redirects to my actual domain name.  
 
 ## My Websites
 Main Website: https://mohit-jain.com/  
-My Globe: https://globe.mohit-jain.com/
