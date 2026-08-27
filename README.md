@@ -1,5 +1,2 @@
 # Redirect Repository
-This repo simply redirects to my actual domain name.  
-
-## My Websites
-Main Website: https://mohit-jain.com/  
+This github.io website simply redirects to my actual portfolio website at https://www.mohit-jain.com/.
